@@ -227,6 +227,75 @@ section{
     opacity: 1;
     transform: scale(1.03);
 }
+
+/* Testimonials */
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./images/match.png);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%;
+    font-style:italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+cite img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+.row h2{
+    text-align: center;
+	font-size: 35px;
+	color: antiquewhite;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+.col {
+	display: block;
+	float:left;
+	margin: 4%;
+}
+.grid-3{
+	width: 25%; 
+}
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+.section-form h2{
+	color: rgb(71, 46, 46);
+}
+.grid-2{
+	width: 25%;
+}
 /* Bonus */
 /*Responsive For Tablate device start*/
 
