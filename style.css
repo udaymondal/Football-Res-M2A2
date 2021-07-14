@@ -56,7 +56,7 @@ header {
 .banner-left h1 {
   font-size: 64px;
   font-weight: 700;
-  color: #2D25A0;
+  color: #2d25a0;
 }
 
 .banner-right img {
@@ -102,7 +102,6 @@ header {
 }
 /* player section finish */
 
-
 /* footer section start */
 .footer-logo {
   width: 100%;
@@ -126,6 +125,9 @@ header {
   justify-content: center;
   margin: 0px 7px;
   padding: 8px;
+}
+.fab:hover {
+  color: red;
 }
 .fab {
   align-self: center;
@@ -152,7 +154,7 @@ header {
   .banner-left h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #2D25A0;
+    color: #2d25a0;
   }
   main {
     margin: 45px 15px;
@@ -170,7 +172,7 @@ header {
     width: 100%;
     height: auto;
   }
-  
+
   .footer-logo {
     width: 100%;
     height: 80px;
@@ -180,121 +182,123 @@ header {
 
 /*Responsive For mobile devices finish*/
 
-.clearfix{ zoom: 1 }
+.clearfix {
+  zoom: 1;
+}
 .clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 /* Bonus */
-.section-moments{
-    padding: 0;
+.section-moments {
+  padding: 0;
 }
-.section-moments h2{
-    text-align: center;
-    color: #2D25A0;
+.section-moments h2 {
+  text-align: center;
+  color: #2d25a0;
 }
-.moments-showcase{
-    list-style: none;
-    width: 100%;
-}
-
-.moments-showcase li{
-    display: block;
-    float: left;
-    width: 25%;
+.moments-showcase {
+  list-style: none;
+  width: 100%;
 }
 
-.moment-photo{
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
+.moments-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
 }
-section{
-    padding: 80px 0;
+
+.moment-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
 }
-.moment-photo img{
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
+section {
+  padding: 80px 0;
 }
-.moment-photo img:hover{
-    opacity: 1;
-    transform: scale(1.03);
+.moment-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.moment-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
 }
 
 /* Testimonials */
-.section-testimonials{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./images/match.png);
-    background-size: cover;
-    color: white;
-    background-attachment: fixed;
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./images/match.png);
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
 }
 
-blockquote{
-    padding: 2%;
-    font-style:italic;
-    line-height: 145%;
-    position: relative;
-    margin-top: 40px;
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
 }
 
-cite{
-    font-size: 90%;
-    margin-top: 25px;
-    display: block;
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
 }
-blockquote:before{
-    content: "\201C";
-    font-size: 400%;
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -5px;
+blockquote:before {
+  content: "\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
 }
-cite img{
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-
+cite img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
-.row h2{
-    text-align: center;
-	font-size: 35px;
-	color: antiquewhite;
+.row h2 {
+  text-align: center;
+  font-size: 35px;
+  color: antiquewhite;
 }
 
 .row:before,
 .row:after {
-    content:"";
-    display:table;
+  content: "";
+  display: table;
 }
 .row:after {
-    clear:both;
+  clear: both;
 }
 .col {
-	display: block;
-	float:left;
-	margin: 4%;
+  display: block;
+  float: left;
+  margin: 4%;
 }
-.grid-3{
-	width: 25%; 
+.grid-3 {
+  width: 25%;
 }
-.contact-form{
-    width: 60%;
-    margin: 0 auto;
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
 }
-.section-form h2{
-	color: rgb(71, 46, 46);
+.section-form h2 {
+  color: rgb(71, 46, 46);
 }
-.grid-2{
-	width: 25%;
+.grid-2 {
+  width: 25%;
 }
 /* Bonus */
 /*Responsive For Tablate device start*/
@@ -310,7 +314,7 @@ cite img{
   .banner-left h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #2D25A0;
+    color: #2d25a0;
   }
 
   main {
@@ -329,7 +333,7 @@ cite img{
     width: 100%;
     height: auto;
   }
-  
+
   .footer-logo {
     width: 100%;
     height: 80px;
